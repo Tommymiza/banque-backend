@@ -1,10 +1,32 @@
 {
-    "version": 2,
-    "name": "banque-backend",
-    "builds": [
-       { "src": "server.js", "use": "@vercel/node" }
-    ],
-    "routes": [
-       { "src": "/(.*)", "dest": "/server.js" }
-    ]
- }
+"version": 2,
+"buildCommand": "node ace build --production",
+"devCommand": "npm run dev",
+"installCommand": "npm install",
+"outputDirectory": "build",
+"public": true,
+"env" : {
+"PORT":"3333",
+"HOST":"127.0.0.1",
+"EMAIL_SENDER_NAME":"",
+"montravaux_BASE_URL":"http://localhost:3333",
+"NODE_ENV":"testing",
+"APP_KEY":"",
+"DRIVE_DISK":"local",
+"SESSION_DRIVER":"cookie",
+"HASH_DRIVER":"bcrypt",
+"CACHE_VIEWS":"",
+"DB_CONNECTION":"",
+"PG_HOST":"aws.connect.psdb.cloud",
+"PG_PORT":"3306",
+"PG_USER":"vdgdg7tolysq326o7dj7",
+"PG_PASSWORD":"pscale_pw_Ejjckj3E2o1nQwcSynQEj6FYZkQEHWNwmPFevQwNAnD",
+"PG_DB_NAME":"tommymysql"
+},
+"routes": [
+{
+"src": "/(.*)",
+"dest": "/start/route.js"
+}
+]
+}
