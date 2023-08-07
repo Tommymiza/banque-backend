@@ -1,5 +1,5 @@
 {
-  "typescript": true,
+  "typescript": false,
   "commands": [
     "./commands",
     "@adonisjs/core/build/commands/index.js",
@@ -51,5 +51,6 @@
       "pattern": "resources/views/**/*.edge",
       "reloadServer": false
     }
-  ]
+  ],
+  "lastCompiledAt": "2023-08-07T07:58:09.977Z"
 }
