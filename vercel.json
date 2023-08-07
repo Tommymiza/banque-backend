@@ -2,7 +2,7 @@
     "version": 2,
     "buildCommand": "node ace build --production --ignore-ts-errors",
     "outputDirectory": "build",
-    "installCommand": "cd build && npm ci -- production",
+    "installCommand": "npm ci -- production",
     "builds": [
       {
         "src": "server.js",
