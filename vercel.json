@@ -16,7 +16,7 @@
 "SESSION_DRIVER":"cookie",
 "HASH_DRIVER":"bcrypt",
 "CACHE_VIEWS":"",
-"DB_CONNECTION":"",
+"DB_CONNECTION":"mysql",
 "PG_HOST":"aws.connect.psdb.cloud",
 "PG_PORT":"3306",
 "PG_USER":"vdgdg7tolysq326o7dj7",
