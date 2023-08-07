@@ -1,6 +1,6 @@
 {
 "version": 2,
-"buildCommand": "node ace build --production --ignore-ts-errors",
+"buildCommand": "node ace build --production && cp .env build/.env",
 "devCommand": "npm run dev",
 "installCommand": "npm install",
 "outputDirectory": "build",
